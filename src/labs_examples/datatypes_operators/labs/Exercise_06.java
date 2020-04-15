@@ -13,6 +13,8 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
-
+        double r = 3.14; double height = 5.0; double pi = 3.14;
+        double volume = r * r * height * pi;
+        System.out.println(volume);
     }
 }

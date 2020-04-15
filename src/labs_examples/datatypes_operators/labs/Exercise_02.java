@@ -24,6 +24,8 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
-
+        double b = 10.5; float c = 23.1f; char d = 'A';
+        int a = (int)b;
+        System.out.println(a);
     }
 }

@@ -22,6 +22,14 @@ public class Exercise_07 {
         System.out.print("Enter a number in days between 1 and 1,000,000: ");
         // assign input to variable as int
         int days = scanner.nextInt();
+        int seconds = days * 24 * 60;
+        System.out.print(seconds);
+
+//        if(days > 0 & days < 1000000) {
+//            System.out.print("Great Thank you");
+//            int seconds = days * 24 * 60;
+//            System.out.print(seconds);
+//        }
 
         // write completed code here
 
