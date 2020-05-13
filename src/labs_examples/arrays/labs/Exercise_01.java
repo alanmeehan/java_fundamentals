@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.Scanner;
+
 /**
  * Arrays calculator
  *
@@ -11,5 +13,23 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_01 {
+
+    public static void main(String[] args) {
+
+
+        Scanner scanner = new Scanner(System.in);
+
+        int[] nums = new int[10];
+
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print("Enter a word ");
+            nums[i] = scanner.nextInt();
+
+            sum += nums[i];
+        }
+        System.out.print("Total " + sum);
+
+    }
 
 }
